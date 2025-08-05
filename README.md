@@ -1,8 +1,10 @@
-# ⚡ AI Book Recommender
+# ⚡ StorySeeker AI – Book & Movie Recommender
 
-A modern, responsive single-page application that uses **Vue.js**, **Bootstrap 5**, and the **Google Books API** to recommend books based on:
+A modern, responsive single‑page application that uses **Vue.js**, **Bootstrap 5**, the **Google Books API**, and the **OMDb API** to recommend **books and movies** tailored to your interests.
 
-- 🔁 Similar books
+Find your next favorite **story**—whether it’s on the page or on the screen—by browsing recommendations based on:
+
+- 🔁 Similar books or movies
 - 📚 Genre preferences
 - 🎭 Mood
 - 🌍 Random exploration
@@ -11,28 +13,28 @@ A modern, responsive single-page application that uses **Vue.js**, **Bootstrap 5
 
 ## ✨ Features
 
-- ✅ Fully client-side (Netlify deployable)
-- 🎨 Clean, responsive UI with Bootstrap
-- 📚 Book suggestions from Google Books API
-- 🔀 Random genre & topic prompts
-- 🧠 Smart tab-based interaction (Vue 3)
-- 🚀 Easily hostable on Netlify or GitHub Pages
+- ✅ Fully client-side (Netlify or GitHub Pages deployable)
+- 📚 Book suggestions via Google Books API
+- 🎬 Movie suggestions via OMDb API (with cast, plot, and posters)
+- 🎨 Clean, responsive UI built with Bootstrap 5
+- 🔀 Random genre & topic prompts for inspiration
+- 🧠 Smart keyword matching with fallback genres for better results
+- 🚀 Instant search and display without server setup
 
 ---
 
 ## 🖥️ Tech Stack
 
-- **Vue.js 3 (CDN)**
+- **Vue.js 3 (CDN version)**
 - **Bootstrap 5**
 - **Google Books API**
+- **OMDb API** (requires free API key from [omdbapi.com](https://www.omdbapi.com/))
 
 ---
 
 ## 📦 Installation / Deployment
 
-You can:
-
 ### 1. Clone & Open Locally
 ```bash
-git clone https://github.com/your-username/ai-book-recommender.git
-cd ai-book-recommender
+git clone https://github.com/your-username/storyseeker-ai.git
+cd storyseeker-ai
